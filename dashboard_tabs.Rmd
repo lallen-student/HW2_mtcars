@@ -1,51 +1,48 @@
 ---
-title: "My Storyboard at DACSS - tabs"
-bibliography: testVisual.bib
+title: "My Dashbord at DACSS"
+bibliography: 
 output: 
-  flexdashboard::flex_dashboard
+  flexdashboard::flex_dashboard:
+    orientation: columns
 ---
 
 ```{r setup, include=FALSE}
 library(flexdashboard) # always
 ```
 
-
-## Sidebar {.sidebar}
-
-
-Preparing the dashboard based on the instructions given at @magallanes_reyes_data_2022, and @aden-buie_flexdashboard_2023.
+## Intro {.sidebar}
 
 
-
-
-## Column {.tabset .tabset-fade}
-
-
-### GIVE ME A TITLE 1
-
-```{r}
-## for del1Draft.rds
-#link1=""
-readRDS()
-```
-
-
-### GIVE ME A TITLE 2
-
-```{r}
-## for del2Draft.rds
-#link2=""
-readRDS()
-```
-
-### GIVE ME A TITLE 3
-
-```{r}
-## for del3Draft.rds
-#link3=""
-readRDS()
-```
 
 ### References
 
+::: {#refs}
+:::
 
+## Column {data-width="450"}
+
+### Count of Cars per GEAR
+
+```{r}
+## for del1Draft.rds
+link1="https://github.com/lallen-student/HW2_mtcars/raw/main/del1Draft.rds"
+readRDS(url(link1))
+```
+
+### Count of Cars per CARB
+
+```{r}
+## for del2Draft.rds
+link2="https://github.com/lallen-student/HW2_mtcars/raw/main/del2Draft.rds"
+readRDS(url(link2))
+```
+
+## Column {data-width="550"}
+
+### Only 5-gear cars that utilize the 6 and 8 carburetor setups
+
+```{r}
+## for del3Draft.rds
+link3="https://github.com/lallen-student/HW2_mtcars/raw/main/del3Draft.rds"
+readRDS(url(link3))
+```

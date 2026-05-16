@@ -1,6 +1,6 @@
 ---
 title: "My Dashbord at DACSS"
-bibliography: testVisual.bib
+bibliography: 
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -27,7 +27,7 @@ Preparing the dashboard based on the instructions given at @magallanes_reyes_dat
 readRDS()
 ```
 
-### Worst histogram 
+### Count of Cars per CARB
 
 ```{r}
 ## for del2Draft.rds
@@ -37,7 +37,7 @@ readRDS()
 
 ## Column {data-width="550"}
 
-### Worst scatterplot
+### Only 5-gear cars that utilize the 6 and 8 carburetor setups
 
 ```{r}
 ## for del3Draft.rds
