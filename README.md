@@ -6,7 +6,7 @@ This repository contains my HW2 dashboard using the built-in mtcars dataset.
 
 "codesForDrafts.R" code used to create the plots
 "index.Rmd" flexdashboard source file
-"index.htm" published dashboard file
+"index.html" published dashboard file
 ".rds" files: saved plot objects
 
 ## Published Dashboard
