@@ -71,7 +71,7 @@ del2Draft <- ggplot(
     aes(label = n),
     vjust = -0.5,
     color = "darkgreen",
-    size = 5
+    size = 4
   ) +
   
   labs(
@@ -80,11 +80,13 @@ del2Draft <- ggplot(
     x = "CARB",
     y = ""
   ) +
-  theme(
-    plot.margin = margin(20, 20, 20, 20)
-  ) +
   theme_minimal() +
-  scale_y_continuous(expand = expansion(mult = c(0, .15)))
+  theme(
+    plot.title = element_text(size = 14),
+    axis.text = element_text(size = 10),
+    axis.title = element_text(size = 10),
+    plot.caption = element_text(size = 8)
+  )
 
 del2Draft
 
@@ -107,7 +109,7 @@ del3Draft <- ggplot(del3Data,
   
   geom_text(
     aes(label = n),
-    vjust = -0.5,
+    vjust = 1,
     color = "darkgreen",
     size = 3
   ) +
@@ -118,21 +120,25 @@ del3Draft <- ggplot(del3Data,
   ) +
   
   labs(
-    title = "Only 5-gear cars utilize the 6 and 8 carburetor setups.",
+    title = "Only 5-gear cars utilize the 6 and 8 carburetor setups",
     caption = "Source: mtcars data",
     x = "cylinders",
     y = "Count"
   ) +
   theme_minimal() +
+  
   theme(
-    plot.margin = margin(30, 20, 20, 20)
-  ) +
-  theme(plot.caption = element_text(
-      hjust = 1,
+    plot.margin = margin(10, 10, 10, 10),
+    plot.title = element_text(size = 10),
+    axis.text = element_text(size = 7),
+    axis.title = element_text(size = 7),
+    plot.caption = element_text(
       size = 8,
+      hjust = 1,
       color = "gray40"
-    )) +
-      scale_y_continuous(expand = expansion(mult = c(0, .15)))
+    ),
+    strip.text = element_text(size = 12)
+  )
 
 del3Draft
 

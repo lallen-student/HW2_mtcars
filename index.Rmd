@@ -10,7 +10,8 @@ library(flexdashboard) # always
 ```
 
 ## Intro {.sidebar}
-This dashboard is from the mtcars data set. 
+
+This dashboard is from the mtcars data set.
 
 ## Column {data-width="450"}
 
