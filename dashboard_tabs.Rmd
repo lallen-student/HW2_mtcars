@@ -13,7 +13,7 @@ library(flexdashboard) # always
 
 ## Column {data-width="450"}
 
-### Count of Cars per GEAR
+### Three-GEAR cars are dominant
 
 ```{r}
 ## for del1Draft.rds
@@ -21,7 +21,7 @@ link1="https://github.com/lallen-student/HW2_mtcars/raw/main/del1Draft.rds"
 readRDS(url(link1))
 ```
 
-### Count of Cars per CARB
+### Few Cars have Six or more Carburetors
 
 ```{r}
 ## for del2Draft.rds
@@ -31,7 +31,7 @@ readRDS(url(link2))
 
 ## Column {data-width="550"}
 
-### Only 5-gear cars that utilize the 6 and 8 carburetor setups
+### Distribution of Cylinder Counts by Carburetors and Gears
 
 ```{r}
 ## for del3Draft.rds

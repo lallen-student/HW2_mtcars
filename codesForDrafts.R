@@ -81,7 +81,7 @@ del2Draft <- ggplot(
     y = ""
   ) +
   theme(
-    plot.margin = margin(10, 10, 10, 10)
+    plot.margin = margin(20, 20, 20, 20)
   ) +
   theme_minimal() +
   scale_y_continuous(expand = expansion(mult = c(0, .15)))
@@ -125,7 +125,7 @@ del3Draft <- ggplot(del3Data,
   ) +
   theme_minimal() +
   theme(
-    plot.margin = margin(20, 10, 10, 10)
+    plot.margin = margin(30, 20, 20, 20)
   ) +
   theme(plot.caption = element_text(
       hjust = 1,
