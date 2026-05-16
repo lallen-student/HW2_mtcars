@@ -1,6 +1,6 @@
 ---
-title: "My Dashbord at DACSS"
-bibliography: 
+title: "My HW2"
+author: "Lafaith Allen-Delice"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -12,16 +12,9 @@ library(flexdashboard) # always
 
 ## Intro {.sidebar}
 
-The dashboard uses the built in data set mtcars. 
+This dashboard uses the built in data set mtcars.
 
-### References
-
-::: {#refs}
-:::
-
-## Column {data-width="450"}
-
-### Amount of Cars by GEAR
+### Three-GEAR cars are dominant
 
 ```{r}
 ## for del1Draft.rds
@@ -29,7 +22,7 @@ link1="https://github.com/lallen-student/HW2_mtcars/raw/main/del1Draft.rds"
 readRDS(url(link1))
 ```
 
-### Count of Cars per CARB
+### Few Cars have Six or more Carburetors
 
 ```{r}
 ## for del2Draft.rds
@@ -37,11 +30,9 @@ link2="https://github.com/lallen-student/HW2_mtcars/raw/main/del2Draft.rds"
 readRDS(url(link2))
 ```
 
-## Column {data-width="550"}
+### Distribution of Cylinder Counts by Carburetors and Gears
 
-### Only 5-gear cars that utilize 6 and 8 carburetor setup 
-
-```{r}
+```{r warning=FALSE}
 ## for del3Draft.rds
 link3="https://github.com/lallen-student/HW2_mtcars/raw/main/del3Draft.rds"
 readRDS(url(link3))
