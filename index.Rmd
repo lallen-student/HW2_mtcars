@@ -1,6 +1,5 @@
 ---
-title: "My HW2"
-author: "Lafaith Allen-Delice"
+title: "HW2"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -11,9 +10,9 @@ library(flexdashboard) # always
 ```
 
 ## Intro {.sidebar}
-This dashboard uses the built in data set mtcars.
+This dashboard is from the mtcars data set. 
 
-## Column {data-width="400"} {data-height="700"}
+## Column {data-width="450"}
 
 ### Three-GEAR cars are dominant
 
@@ -31,9 +30,11 @@ link2="https://github.com/lallen-student/HW2_mtcars/raw/main/del2Draft.rds"
 readRDS(url(link2))
 ```
 
+## Column {data-width="550"}
+
 ### Distribution of Cylinder Counts by Carburetors and Gears
 
-```{r warning=FALSE}
+```{r}
 ## for del3Draft.rds
 link3="https://github.com/lallen-student/HW2_mtcars/raw/main/del3Draft.rds"
 readRDS(url(link3))
