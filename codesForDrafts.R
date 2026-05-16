@@ -31,20 +31,16 @@ del1Draft <- ggplot(del1Data, aes(
             size = 8,
             hjust = 1.3
   ) +
-  
   labs(
     title = "Count of Cars per GEAR",
     caption = "Source: mtcars data",
     x = "",
     y = "Gear"
   ) +
-  
   scale_x_continuous(
     expand = expansion(mult = c(0, .15))
   ) +
-  
   theme_minimal() +
-  
   theme(
     plot.margin = margin(10, 20, 10, 10)
   )
