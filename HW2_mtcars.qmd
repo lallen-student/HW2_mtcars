@@ -1,0 +1,48 @@
+---
+title: "My Dashbord at DACSS"
+bibliography: testVisual.bib
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard) # always
+```
+
+## Intro {.sidebar}
+
+
+
+### References
+
+::: {#refs}
+:::
+
+## Column {data-width="450"}
+
+### Worst barplot: Locale by Count
+
+```{r}
+## for del1Draft.rds
+link1=""
+readRDS(url(link1))
+```
+
+### Worst histogram: Student Teacher Ratio by Count 
+
+```{r}
+## for del2Draft.rds
+link2="https://github.com/lallen-student/Final-Test/raw/main/del2Draft.rds"
+readRDS(url(link2))
+```
+
+## Column {data-width="550"}
+
+### Worst scatterplot
+
+```{r}
+## for del3Draft.rds
+link3="https://github.com/lallen-student/Final-Test/raw/main/del3Draft.rds"
+readRDS(url(link3))
+```
