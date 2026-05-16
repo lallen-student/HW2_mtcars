@@ -25,7 +25,7 @@ readRDS(url(link1))
 
 ### Few Cars have Six or more Carburetors
 
-```{r, fig.width=10, fig.height=6, out.width="100%"}
+```{r}
 ## for del2Draft.rds
 link2="https://github.com/lallen-student/HW2_mtcars/raw/main/del2Draft.rds"
 readRDS(url(link2))
@@ -35,7 +35,7 @@ readRDS(url(link2))
 
 ### Distribution of Cylinder Counts by Carburetors and Gears
 
-```{r, fig.width=10, fig.height=10, out.width="100%"}
+```{r}
 ## for del3Draft.rds
 link3="https://github.com/lallen-student/HW2_mtcars/raw/main/del3Draft.rds"
 readRDS(url(link3))
