@@ -12,7 +12,7 @@ library(flexdashboard) # always
 
 ## Intro {.sidebar}
 
-
+The dashboard uses the built in data set mtcars. 
 
 ### References
 
@@ -21,7 +21,7 @@ library(flexdashboard) # always
 
 ## Column {data-width="450"}
 
-### Count of Cars per GEAR
+### Amount of Cars by GEAR
 
 ```{r}
 ## for del1Draft.rds
@@ -39,7 +39,7 @@ readRDS(url(link2))
 
 ## Column {data-width="550"}
 
-### Only 5-gear cars that utilize the 6 and 8 carburetor setups
+### Only 5-gear cars that utilize 6 and 8 carburetor setup 
 
 ```{r}
 ## for del3Draft.rds
