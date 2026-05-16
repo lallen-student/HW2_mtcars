@@ -1,0 +1,48 @@
+---
+title: "My Dashbord at DACSS"
+bibliography: testVisual.bib
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard) # always
+```
+
+## Intro {.sidebar}
+
+Preparing the dashboard based on the instructions given at @magallanes_reyes_data_2022, and @sievert_flexdashboard_2022.
+
+### References
+<div id="refs"></div>
+
+## Column {data-width="450"}
+
+### Worst barplot <!-- a title for plot -->
+
+```{r}
+## for del1Draft.rds
+#link1=""
+readRDS()
+```
+
+### Worst histogram 
+
+```{r}
+## for del2Draft.rds
+#link2=""
+readRDS()
+```
+
+## Column {data-width="550"}
+
+### Worst scatterplot
+
+```{r}
+## for del3Draft.rds
+#link3=""
+readRDS()
+```
+
+

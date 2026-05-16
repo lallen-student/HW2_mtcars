@@ -1,0 +1,48 @@
+---
+title: "My Storyboard at DACSS - frames"
+bibliography: testVisual.bib
+output: 
+  flexdashboard::flex_dashboard:
+    storyboard: true
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard) # always
+```
+
+## Intro {.sidebar}
+
+Preparing the dashboard based on the instructions given at @magallanes_reyes_data_2022, and @aden-buie_flexdashboard_2023.
+
+
+
+### I know this is not nice, but wait till I finish the course
+
+
+```{r}
+## for del1Draft.rds
+#link1=""
+readRDS()
+```
+
+
+
+### I am doing my best but still much to learn
+
+```{r}
+## for del2Draft.rds
+#link2=""
+readRDS()
+```
+
+
+### This might be the worst plot, but...
+
+```{r}
+## for del3Draft.rds
+#link3=""
+readRDS()
+```
+
+
+### References

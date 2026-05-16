@@ -1,0 +1,51 @@
+---
+title: "My Storyboard at DACSS - tabs"
+bibliography: testVisual.bib
+output: 
+  flexdashboard::flex_dashboard
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard) # always
+```
+
+
+## Sidebar {.sidebar}
+
+
+Preparing the dashboard based on the instructions given at @magallanes_reyes_data_2022, and @aden-buie_flexdashboard_2023.
+
+
+
+
+## Column {.tabset .tabset-fade}
+
+
+### GIVE ME A TITLE 1
+
+```{r}
+## for del1Draft.rds
+#link1=""
+readRDS()
+```
+
+
+### GIVE ME A TITLE 2
+
+```{r}
+## for del2Draft.rds
+#link2=""
+readRDS()
+```
+
+### GIVE ME A TITLE 3
+
+```{r}
+## for del3Draft.rds
+#link3=""
+readRDS()
+```
+
+### References
+
+
