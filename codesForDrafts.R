@@ -106,7 +106,7 @@ del3Draft <- ggplot(del3Data,
     aes(label = n),
     vjust = 1,
     color = "darkgreen",
-    size = 3
+    size = 3.5
   ) +
   
   facet_grid(
@@ -120,14 +120,7 @@ del3Draft <- ggplot(del3Data,
     x = "cylinders",
     y = "Count"
   ) +
-  theme_minimal() +
-  
-  theme(plot.caption = element_text(
-      hjust = 1,
-      color = "gray40"
-    ),
-    strip.text = element_text(size = 12)
-  )
+  theme_minimal()
 
 del3Draft
 
