@@ -13,7 +13,7 @@ library(flexdashboard) # always
 
 This dashboard is from the mtcars data set.
 
-## Column {data-width="450"}
+## Column {data-width="400"}
 
 ### Three-GEAR cars are dominant
 
@@ -31,7 +31,7 @@ link2="https://github.com/lallen-student/HW2_mtcars/raw/main/del2Draft.rds"
 readRDS(url(link2))
 ```
 
-## Column {data-width="550"}
+## Column {data-width="500"}
 
 ### Distribution of Cylinder Counts by Carburetors and Gears
 

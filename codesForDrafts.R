@@ -80,13 +80,8 @@ del2Draft <- ggplot(
     x = "CARB",
     y = ""
   ) +
-  theme_minimal() +
-  theme(
-    plot.title = element_text(size = 14),
-    axis.text = element_text(size = 10),
-    axis.title = element_text(size = 10),
-    plot.caption = element_text(size = 8)
-  )
+  theme_minimal() 
+
 
 del2Draft
 
@@ -127,13 +122,7 @@ del3Draft <- ggplot(del3Data,
   ) +
   theme_minimal() +
   
-  theme(
-    plot.margin = margin(10, 10, 10, 10),
-    plot.title = element_text(size = 10),
-    axis.text = element_text(size = 7),
-    axis.title = element_text(size = 7),
-    plot.caption = element_text(
-      size = 8,
+  theme(plot.caption = element_text(
       hjust = 1,
       color = "gray40"
     ),
