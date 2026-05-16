@@ -41,6 +41,7 @@ del1Draft <- ggplot(del1Data, aes(
     expand = expansion(mult = c(0, .15))
   ) +
   theme_minimal() +
+  
   theme(
     plot.margin = margin(10, 20, 10, 10)
   )
@@ -80,7 +81,7 @@ del2Draft <- ggplot(
     y = ""
   ) +
   theme(
-    plot.margin = margin(20, 10, 10, 10)
+    plot.margin = margin(10, 10, 10, 10)
   ) +
   theme_minimal() +
   scale_y_continuous(expand = expansion(mult = c(0, .15)))

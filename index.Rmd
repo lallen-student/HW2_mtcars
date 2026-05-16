@@ -11,8 +11,9 @@ library(flexdashboard) # always
 ```
 
 ## Intro {.sidebar}
-
 This dashboard uses the built in data set mtcars.
+
+## Column {data-width="400"} {data-height="700"}
 
 ### Three-GEAR cars are dominant
 

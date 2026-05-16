@@ -1,6 +1,5 @@
 ---
 title: "My Dashbord at DACSS"
-bibliography: 
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -11,13 +10,6 @@ library(flexdashboard) # always
 ```
 
 ## Intro {.sidebar}
-
-
-
-### References
-
-::: {#refs}
-:::
 
 ## Column {data-width="450"}
 
